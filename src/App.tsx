@@ -1,14 +1,9 @@
-import { createSignal, type Component } from 'solid-js';
-import Counter from './Components/Counter';
+import { type Component } from 'solid-js';
 
 const App: Component = () => {
-  const [count, setCount] = createSignal(0);
-
   return (
     <div>
-      SolidJS Props
-      <Counter title='Counter' count={count()}/>
-      <button onclick={() => setCount(count() + 1)}>Increase your steps</button>
+      SolidJS
     </div>
   );
 };
