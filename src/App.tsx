@@ -7,7 +7,7 @@ const App: Component = () => {
   return (
     <div>
       SolidJS Props
-      <Counter title='Counter' count={count()}/>
+      <Counter title="Worrl'd best step counter" count={count()}/>
       <button onclick={() => setCount(count() + 1)}>Increase your steps</button>
     </div>
   );

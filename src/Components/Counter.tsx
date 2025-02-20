@@ -7,12 +7,13 @@ interface CounterProps {
 
 const Counter: Component<CounterProps> = (props) => {
 
-    const getCount = () => props.count;
+    const getTitle = () => props.title;
+    const getCounter = () => props.count;
 
     return (
         <div>
-            <h1>{props.title}</h1>
-            <p>{getCount()}</p>
+           <h1>{getTitle()}</h1>
+           <h1>{getCounter()}</h1>
         </div>
     )
 }
